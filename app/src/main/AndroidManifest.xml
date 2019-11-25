@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mywords">
+    package="com.example.ex_2_wordbook">
 
     <application
         android:allowBackup="true"
@@ -9,14 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BaseActivity"></activity>
-        <activity android:name=".NoteAdapter" />
-        <activity android:name=".ActivityMananger" />
-        <activity android:name=".NotePad" />
-        <activity android:name=".NoteActivity" />
-        <activity android:name=".EditNote" />
-        <activity android:name=".RightFragment" />
-        <activity android:name=".LeftFragment" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
